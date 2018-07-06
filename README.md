@@ -2,7 +2,7 @@
 
 * 00-ens11f0.sh [ok]
 * 01-apparmor.sh
-* 02-firewalld.sh
+* 02-ufw.sh
 * 03-apt.sh
 * 04-nvidia-gpu-driver_part1
 * 05-nvidia-smi.sh
