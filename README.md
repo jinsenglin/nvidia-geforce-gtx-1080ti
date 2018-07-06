@@ -1,11 +1,11 @@
 # STATUS
 
-* 00-ens11f0.sh [ok]
-* 01-apparmor.sh
-* 02-ufw.sh
-* 03-apt.sh
-* 04-nvidia-gpu-driver_part1
-* 05-nvidia-smi.sh
+* 00-ens11f0.sh [built-in]
+* 01-apparmor.sh [ok]
+* 02-ufw.sh [ok]
+* 03-apt.sh [ok]
+* 04-nvidia-gpu-driver [built-in]
+* 05-nvidia-smi.sh [ok]
 * 06-nvidia-cuda-toolkit
 * 07-nvidia-cudnn-library
 * 08-nvidia-docker
