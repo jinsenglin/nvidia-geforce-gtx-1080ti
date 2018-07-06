@@ -1,7 +1,7 @@
 # STATUS
 
 * 00-ens11f0.sh [ok]
-* 01-selinux.sh
+* 01-apparmor.sh
 * 02-firewalld.sh
 * 03-apt.sh
 * 04-nvidia-gpu-driver_part1
