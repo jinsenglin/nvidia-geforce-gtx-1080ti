@@ -1,6 +1,6 @@
 # STATUS
 
-* 00-eth0.sh
+* 00-ens11f0.sh [ok]
 * 01-selinux.sh
 * 02-firewalld.sh
 * 03-apt.sh
