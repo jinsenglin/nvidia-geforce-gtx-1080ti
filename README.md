@@ -45,3 +45,22 @@ n/a
 # DO AGAIN AFTER REBOOT
 
 * 06-nvidia-cuda-toolkit_part2.sh
+
+# To connect to your Jupyter Notebook remotely
+
+Local terminal 1
+
+```
+ssh -L8000:localhost:8000 <next-host>
+
+# then
+
+PODNAME=`kubectl get pods --namespace=${NAMESPACE} --selector="app=tf-hub" --output=template --template="{{with index .items 0}}{{.metadata.name}}{{end}}"`
+kubectl port-forward --namespace=${NAMESPACE} $PODNAME 8000:8000
+```
+
+Local terminal 2
+
+```
+open http://127.0.0.1:8000
+```
