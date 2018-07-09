@@ -6,9 +6,9 @@
 * 03-apt.sh [ok]
 * 04-nvidia-gpu-driver [built-in]
 * 05-nvidia-smi.sh [ok]
-* 06-nvidia-cuda-toolkit
-* 07-nvidia-cudnn-library
-* 08-nvidia-docker
+* 06-nvidia-cuda-toolkit [ok]
+* 07-nvidia-cudnn-library [ok]
+* 08-nvidia-docker [ok]
 * 09-nvidia-k8s-device-plugin
 * 10-kubeflow.sh
 
