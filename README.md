@@ -10,7 +10,7 @@
 * 07-nvidia-cudnn-library [ok]
 * 08-nvidia-docker [ok]
 * 09-nvidia-k8s-device-plugin [ok]
-* 10-kubeflow.sh
+* 10-kubeflow.sh [ok]
 
 # IPMI WEB CONSOLE
 
