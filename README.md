@@ -76,14 +76,14 @@ kubectl -n ${NAMESPACE} exec jupyter-${USERNAME} -it -- /bin/bash
 # To batch download docker images
 
 ```
-docker pull gcr.io/kubeflow-images-public/tensorflow-1.4.1-notebook-cpu
-docker pull gcr.io/kubeflow-images-public/tensorflow-1.4.1-notebook-gpu
-docker pull gcr.io/kubeflow-images-public/tensorflow-1.5.1-notebook-cpu
-docker pull gcr.io/kubeflow-images-public/tensorflow-1.5.1-notebook-gpu
-docker pull gcr.io/kubeflow-images-public/tensorflow-1.6.0-notebook-cpu
-docker pull gcr.io/kubeflow-images-public/tensorflow-1.6.0-notebook-gpu
-docker pull gcr.io/kubeflow-images-public/tensorflow-1.7.0-notebook-cpu
-docker pull gcr.io/kubeflow-images-public/tensorflow-1.7.0-notebook-gpu
-docker pull gcr.io/kubeflow-images-public/tensorflow-1.8.0-notebook-cpu
-docker pull gcr.io/kubeflow-images-public/tensorflow-1.8.0-notebook-gpu
+docker pull gcr.io/kubeflow-images-public/tensorflow-1.4.1-notebook-cpu:v20180607-476e150e
+docker pull gcr.io/kubeflow-images-public/tensorflow-1.4.1-notebook-gpu:v20180607-476e150e
+docker pull gcr.io/kubeflow-images-public/tensorflow-1.5.1-notebook-cpu:v20180607-476e150e
+docker pull gcr.io/kubeflow-images-public/tensorflow-1.5.1-notebook-gpu:v20180607-476e150e
+docker pull gcr.io/kubeflow-images-public/tensorflow-1.6.0-notebook-cpu:v20180607-476e150e
+docker pull gcr.io/kubeflow-images-public/tensorflow-1.6.0-notebook-gpu:v20180607-476e150e
+docker pull gcr.io/kubeflow-images-public/tensorflow-1.7.0-notebook-cpu:v20180607-476e150e
+docker pull gcr.io/kubeflow-images-public/tensorflow-1.7.0-notebook-gpu:v20180607-476e150e
+docker pull gcr.io/kubeflow-images-public/tensorflow-1.8.0-notebook-cpu:v20180607-476e150e
+docker pull gcr.io/kubeflow-images-public/tensorflow-1.8.0-notebook-gpu:v20180607-476e150e
 ```
