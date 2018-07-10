@@ -68,7 +68,7 @@ open http://127.0.0.1:8000
 # To ssh login your Jupyter Notebook pod
 
 ```
-kubectl -n kubeflow exec jupyter-cclin -it -- /bin/bash
+kubectl -n ${NAMESPACE} exec jupyter-${USERNAME} -it -- /bin/bash
 
 # ctrl + d to ssh logout
 ```
